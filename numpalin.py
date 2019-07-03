@@ -4,7 +4,7 @@ rev=0
 while a>0:
   dig=a%10
   rev=rev*10+dig
-  n=n//10
+  a=a//10
   temp=rev
 if(temp==rev):
   print("yes")
