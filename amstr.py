@@ -1,10 +1,11 @@
 a=str(input())
 b=len(a)
-for i in range(1,b):
-  str[i]=pow(str[i],b)
-  sum=sum+str[i]
+sum=0
+for i in range(0,b-1):
+  c[i]=pow(str[i],b)
+  sum=sum+c[i]
 if(sum==a):
   print("yes")
 else:
-  print("no"
+  print("no")
   
